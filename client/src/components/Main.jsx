@@ -12,8 +12,8 @@ const Main = () => {
                 <Carousel />
                 <div style={{ padding: 2 }}>
 
-                    <h2>Luxe Barber & Shave Lounge</h2>
-                    <h5>17 E Mongroe, The Palmer house Houtel/ Gound Lev, Chicago, Il, 60605</h5>
+                    <h2>Your Business Name Here</h2>
+                    <h5>Your Address Here</h5>
                 </div>
                 <hr />
                 <Services />

@@ -1,6 +1,7 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import avatar from '../static/avatar.jpg'
+import avatarpng from '../static/avatar.png'
 import facebook from '../static/facebook.png'
 import instagram from '../static/instagram.png'
 import envelope from '../static/envelope.png'
@@ -16,7 +17,7 @@ const AboutUs = () => {
                 <img id="lu_map" src={geolocation} title="Map of Luxe Barber &amp; Shave Lounge" alt="Map of Luxe Barber &amp; Shave Lounge" style={{ minWidth: 65, height: "auto", maxWidth: "100%", maxHeight: "100%" }}></img>
             </div>
             <div>
-                <p>Luxe Barber & Shave Lounge is an upscale experience, where we blend old school charm and new school freshness to truly groom our clients. Our barbershop is located in The Palmer House, a Hilton...</p>
+                <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita eaque porro facilis voluptatum dolore consequuntur accusantium numquam natus excepturi aliquam, aspernatur ad voluptate, omnis amet dolores repellat quidem eius? Exercitationem...</p>
             </div>
             <div >
                 <p>Staffer Members: </p>
@@ -43,12 +44,12 @@ const AboutUs = () => {
                 </p>
                 <hr />
                 <div style={{ display: "flex", justifyContent: "space-evenly", alignItems: "baseline" }}>
-                    <p>(312) 285-2007</p>
-                    <a href="tel:(312) 285-2007"><button type="button" className="btn btn-success"> Call </button></a>
+                    <p>(555) 555-1234</p>
+                    <a href="tel:(555) 555-1234"><button type="button" className="btn btn-success"> Call </button></a>
                 </div>
                 <hr />
                 <div>
-                    {/* <p> Table? loop (Day of week + hours) </p> */}
+                    {/* <p> Table? loop (Day of week + hours) API Call for hours/days?</p> */}
                     <p>Sunday</p>
                     <p> 09:00 AM - 07:00PM </p>
                 </div>

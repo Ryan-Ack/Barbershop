@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import avatar from '../static/avatar.jpg'
-import luxe from '../static/luxe.PNG'
+import avatarpng from '../static/avatar.png'
+import luxe from '../static/luxe.png'
 import shop from '../static/shop.PNG'
 
 const Carousel = () => {
@@ -28,7 +28,7 @@ const Carousel = () => {
 
                 {pictureID == 1 ?
                     <div className="carousel-item active" itemID={1}>
-                        <img src={luxe} className="d-block w-100" alt="..." />
+                        <img src={avatarpng} className="d-block w-100" alt="..." />
                     </div>
                     : pictureID == 2 ?
                         <div className="carousel-item active" itemID={2}>
@@ -36,13 +36,9 @@ const Carousel = () => {
                         </div>
                         :
                         <div className="carousel-item active" itemID={3}>
-                            <img src={avatar} className="d-block w-100" alt="..." />
+                            <img src={luxe} className="d-block w-100" alt="..." />
                         </div>
                 }
-
-                {/* <div className="carousel-item" itemID={2}>
-                    <img src={shop} className="d-block w-100" alt="..." />
-                </div> */}
 
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev" onClick={(e) => cycleBkwd(e.target.value)}>

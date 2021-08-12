@@ -3,7 +3,7 @@ import React from 'react'
 const Times = () => {
     const morningTimes = ["8:00", "8:30", "9:00", "9:30", "10:00", "10:30", "11:00", "11:30"]
     const afternoonTimes = ["1:00", "1:30", "2:00", "2:30", "3:00", "3:30", "4:00", "4:30"]
-    const eveningTimes = ["5:00", "5:30", "6:00", "6:30", "7:00",]
+    const eveningTimes = []
 
     // if dateSelected =null > Hide
 

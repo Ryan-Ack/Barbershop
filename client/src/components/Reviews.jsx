@@ -9,8 +9,8 @@ const Reviews = () => {
                 <div style={{ margin: 5, display: "flex", }}>
                     <div style={{ maxWidth: 500 }}>
                         <h2>Reviews  </h2>
-                        <h6>Reviews are no joke! Booksy values authentic reviews and only verifiess them if we know the reviewer has visited the business.</h6>
-                        <p>***This needs a container ^ ***</p>
+                        <h6>Only Verified reviews will be counted towards the average</h6>
+                        {/* <p>***This needs a container ^ ***</p> */}
                     </div>
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'baseline', margin: 5, width: "50%" }}>
@@ -42,10 +42,10 @@ const Reviews = () => {
                 <div>
                     <p>&#11088;&#11088;&#11088;&#11088;&#11088;</p>
                     <p>Hair cuts, tapers, fades, afros, etc, Color treatments, Shampoo</p>
-                    <p>by: Brady Mcneely</p>
+                    <p>by: Tammy</p>
                 </div>
                 <div className="ms-auto p-2 bd-highlight">
-                    <p>Felipe F - Jul 20, 2021 	&#x2705;</p>
+                    <p>Phillip Thomas - Jul 20, 2021 	&#x2705;</p>
                 </div>
             </div>
 
@@ -64,7 +64,7 @@ const Reviews = () => {
                 <div>
                     <p>&#11088;&#11088;&#11088;&#10032; &#10032;</p>
                     <p>Tapers, fades, Color treatments, Shampoo, Scalp Massage</p>
-                    <p>by: Kayla James</p>
+                    <p>by: Tommy</p>
                 </div>
                 <div className="ms-auto p-2 bd-highlight">
                     <p>Fredrick P - Jun 1, 2021 	&#x2705;</p>

@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>Luxe Barber & Shave lounge</h1>
+      <h1>Your Business Name Here</h1>
       <Breadcrumb style={{ display: "flex", justifyContent: "center", backgroundColor: "lightblue", borderRadius: 10, padding: 5, marginBottom: 5 }}>
         <Breadcrumb.Item active><Link to="/"> Home </Link></Breadcrumb.Item>
         {/* <Breadcrumb.Item><Link to="/calendar"> Calendar </Link></Breadcrumb.Item> */}
