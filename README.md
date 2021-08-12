@@ -1,2 +1,2 @@
 # Barber Shop Picture
-![](preview.pn)
+![](preview.png)
