@@ -53,7 +53,7 @@ const Reviews = () => {
                 <p>This Haircut was the bomb digity! 10/10 would recommend!</p>
             </div>
             <div className="d-flex bd-highlight mb-3" >
-                <button type="button" className="btn btn-outline-secondary p-2 bd-highlight" style={{ borderRadius: 10 }}> 0 &#128077;</button>
+                <button type="button" className="btn btn-outline-secondary p-2 bd-highlight" style={{ borderRadius: 10 }}> 3 &#128077;</button>
                 <button type="button" className="btn btn-outline-secondary p-2 bd-highlight" style={{ borderRadius: 10 }}> 0 &#128078;</button>
                 <button type="button" className="btn btn-outline-secondary ms-auto p-2 bd-highlight" style={{ borderRadius: 10 }}> Report &#128681;</button>
             </div>

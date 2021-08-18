@@ -11,6 +11,8 @@ import AboutUs from './components/AboutUs';
 import Reviews from './components/Reviews';
 import Services from './components/Services';
 import Bootstrap from './components/Bootstrap';
+import Footer from './components/Footer';
+
 
 
 
@@ -19,6 +21,7 @@ function App() {
 
   return (
     <div className="container">
+ 
       <h1>Your Business Name Here</h1>
       <Breadcrumb style={{ display: "flex", justifyContent: "center", backgroundColor: "lightblue", borderRadius: 10, padding: 5, marginBottom: 5 }}>
         <Breadcrumb.Item active><Link to="/"> Home </Link></Breadcrumb.Item>
@@ -40,6 +43,7 @@ function App() {
         <Bootstrap path="/bootstrap" />
         <AboutUs path="/aboutus" />
       </Router>
+      <Footer/>
     </div>
   );
 }

@@ -8,10 +8,10 @@ const Services = () => {
     const [datePicked, setDatePicked] = useState(null)
     return (
         <div className="container">
-            <table class="table table-hover table-dark">
+            <table className="table table-hover table-dark">
                 <thead>
                     <tr>
-                        <th scope="col" colspan="1">Services</th>
+                        <th scope="col" colSpan="1">Services</th>
                         <th scope="col">Price</th>
                         <th scope="col">Book</th>
                         {/* <th scope="col">Handle</th> */}
@@ -22,7 +22,7 @@ const Services = () => {
                         <th scope="row">Hair cuts, tapers, fades, afros, etc</th>
                         <td>$65.00</td>
                         <td>
-                            {/* <button type="button" class="btn btn-outline-info">Book</button> */}
+                            {/* <button type="button" className="btn btn-outline-info">Book</button> */}
                             <button className="btn btn-outline-info" onClick={() => setModalIsOpen(true)}>Book</button>
                             <Modal isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)} style={{ overlay: { backgroundColor: 'gray' }, content: { color: 'orange' } }} className="modal-dialog modal-dialog-centered">
                                 {/* <h2>modal title</h2> */}
@@ -54,12 +54,12 @@ const Services = () => {
                     <tr>
                         <th scope="row">Standard buzz cut or 1 length even line up</th>
                         <td>$40.00</td>
-                        <td><button type="button" class="btn btn-outline-info">Book</button></td>
+                        <td><button type="button" className="btn btn-outline-info">Book</button></td>
                     </tr>
                     <tr>
                         <th scope="row">Shave trimmer only</th>
                         <td >$30.00</td>
-                        <td><button type="button" class="btn btn-outline-info">Book</button></td>
+                        <td><button type="button" className="btn btn-outline-info">Book</button></td>
                     </tr>
                 </tbody>
             </table>

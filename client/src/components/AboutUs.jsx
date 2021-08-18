@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
+
+import axios from 'axios'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import avatar from '../static/avatar.jpg'
 import avatarpng from '../static/avatar.png'
@@ -10,17 +12,23 @@ import { Button, Alert, Breadcrumb, Card, Form, Container, Row, Col } from 'reac
 import { auto } from '@popperjs/core';
 const AboutUs = () => {
 
+
+    // const businessCoordinates= '45.522641,-122.656824'
+    // const businessHref = `https://maps.google.com/maps?hl=en&amp;q=${businessCoordinates}&amp;sll=${businessCoordinates}&amp;z=13&amp;markers=${businessCoordinates}`
     return (
         <div className="container" style={{ backgroundColor: "lightgray", borderRadius: 10, padding: 10 }}>
             <div>
-                <p>***Google API Call for this location***</p>
-                <img id="lu_map" src={geolocation} title="Map of Luxe Barber &amp; Shave Lounge" alt="Map of Luxe Barber &amp; Shave Lounge" style={{ minWidth: 65, height: "auto", maxWidth: "100%", maxHeight: "100%" }}></img>
+                <h6>Get Directions: </h6>
+                <a href="https://maps.google.com/maps?hl=en&amp;q=45.522641,-122.656824&amp;sll=45.522641,-122.656824&amp;z=13&amp;markers=45.522641,-122.656824" target="_blank">
+                    <img id="lu_map" src={geolocation} title="Map of Luxe Barber &amp; Shave Lounge" alt="Map of Luxe Barber &amp; Shave Lounge" style={{ minWidth: 65, height: "auto", maxWidth: "100%", maxHeight: "100%" }}></img>
+                </a>
             </div>
             <div>
+                <h6>Description: </h6>
                 <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita eaque porro facilis voluptatum dolore consequuntur accusantium numquam natus excepturi aliquam, aspernatur ad voluptate, omnis amet dolores repellat quidem eius? Exercitationem...</p>
             </div>
             <div >
-                <p>Staffer Members: </p>
+                <h6>Staffer Members: </h6>
                 <div style={{ display: "flex", justifyContent: 'space-around' }}>
                     <div >
                         {/* Staff map here. (loop every staff in staffers) */}
@@ -39,9 +47,7 @@ const AboutUs = () => {
                 </div>
             </div>
             <div>
-                <p>
-                    Contact and Business Hours
-                </p>
+                <h6>Contact and Business Hours</h6>
                 <hr />
                 <div style={{ display: "flex", justifyContent: "space-evenly", alignItems: "baseline" }}>
                     <p>(555) 555-1234</p>
@@ -76,3 +82,7 @@ const AboutUs = () => {
 }
 
 export default AboutUs
+
+
+
+
