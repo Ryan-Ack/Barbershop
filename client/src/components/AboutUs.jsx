@@ -20,7 +20,7 @@ const AboutUs = () => {
             <div>
                 <h6>Get Directions: </h6>
                 <a href="https://maps.google.com/maps?hl=en&amp;q=45.522641,-122.656824&amp;sll=45.522641,-122.656824&amp;z=13&amp;markers=45.522641,-122.656824" target="_blank">
-                    <img id="lu_map" src={geolocation} title="Map of Luxe Barber &amp; Shave Lounge" alt="Map of Luxe Barber &amp; Shave Lounge" style={{ minWidth: 65, height: "auto", maxWidth: "100%", maxHeight: "100%" }}></img>
+                    <img id="lu_map" src={geolocation} title="Map of (your busines name here)" alt="Map of (your busines name here)" style={{ minWidth: 65, height: "auto", maxWidth: "100%", maxHeight: "100%" }}></img>
                 </a>
             </div>
             <div>
@@ -56,9 +56,14 @@ const AboutUs = () => {
                 <hr />
                 <div>
                     {/* <p> Table? loop (Day of week + hours) API Call for hours/days?</p> */}
-                    <p>Sunday</p>
+                    <h6>Sunday</h6>
                     <p> 09:00 AM - 07:00PM </p>
+                    <h6>Monday - Friday </h6>
+                    <p> 08:00 AM - 05:00PM </p>
+                    <h6>Saturday</h6>
+                    <p> 11:00 AM - 07:00PM </p>
                 </div>
+                <hr />
                 <div >
                     <p>Social Media & Share</p>
                     <div style={{ display: "flex", justifyContent: 'space-around' }}>

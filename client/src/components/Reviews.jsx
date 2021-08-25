@@ -45,7 +45,7 @@ const Reviews = () => {
                     <p>by: Tammy</p>
                 </div>
                 <div className="ms-auto p-2 bd-highlight">
-                    <p>Phillip Thomas - Jul 20, 2021 	&#x2705;</p>
+                    <p>Phillip Thomas - Jul 20, 2021 	&#10060;</p>
                 </div>
             </div>
 

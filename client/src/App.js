@@ -12,6 +12,7 @@ import Reviews from './components/Reviews';
 import Services from './components/Services';
 import Bootstrap from './components/Bootstrap';
 import Footer from './components/Footer';
+import stripes from './static/stripes.jpg'
 
 
 
@@ -20,18 +21,17 @@ function App() {
 
 
   return (
-    <div className="container">
+    <div className="container" style={{backgroundImage: `url(${stripes})`}}>
  
-      <h1>Your Business Name Here</h1>
+      <h1 style={{ borderRadius: 10,backgroundColor: "lightblue"}}>Your Business Name Here</h1>
       <Breadcrumb style={{ display: "flex", justifyContent: "center", backgroundColor: "lightblue", borderRadius: 10, padding: 5, marginBottom: 5 }}>
         <Breadcrumb.Item active><Link to="/"> Home </Link></Breadcrumb.Item>
-        {/* <Breadcrumb.Item><Link to="/calendar"> Calendar </Link></Breadcrumb.Item> */}
         <Breadcrumb.Item><Link to="/times"> Times </Link></Breadcrumb.Item>
         <Breadcrumb.Item><Link to="/reviews"> Reviews </Link></Breadcrumb.Item>
         <Breadcrumb.Item> <Link to="/services"> Services </Link></Breadcrumb.Item>
         <Breadcrumb.Item><Link to="/cart"> Cart </Link></Breadcrumb.Item>
         <Breadcrumb.Item><Link to="/aboutus"> AboutUs </Link></Breadcrumb.Item>
-        <Breadcrumb.Item><Link to="/bootstrap"> Bootstrap Practice </Link></Breadcrumb.Item>
+        {/* <Breadcrumb.Item><Link to="/bootstrap"> Bootstrap Practice </Link></Breadcrumb.Item> */}
       </Breadcrumb>
       <Router>
         <Main path="/" />

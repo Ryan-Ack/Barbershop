@@ -23,7 +23,7 @@ const Carousel = () => {
     }
 
     return (
-        <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel" style={{padding:10}}>
             <div className="carousel-inner" >
 
                 {pictureID == 1 ?
@@ -51,6 +51,9 @@ const Carousel = () => {
             </button>
         </div>
     )
+
 }
 
 export default Carousel
+
+
